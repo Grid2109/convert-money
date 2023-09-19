@@ -99,3 +99,81 @@ section {
   font-weight: bold;
   font-size: 20px;
 }
+
+
+@media screen and (max-width: 394px){
+  main {
+    width: 320px;
+  }
+ 
+@media screen and (max-width: 376px) and (max-width: 360px) {
+  main {
+    width: 300px;
+  }
+}
+ 
+@media screen and (max-width: 320px){
+    main {
+      width: 275px;
+     
+    }
+  }
+  @media screen and (max-width: 171px){
+    main {
+      max-width: 140px;
+      width: 100%;
+    }
+    section {
+      width: 95px;
+      height: auto;
+      padding: 10px;
+     }
+  
+     .logo {
+      width: 120px;
+    }
+  
+    label {
+      font-size: 12px;
+    }
+  
+    select { 
+      max-width: 100px;
+      height:  30px auto auto auto;
+      padding: 5px;
+    }
+  
+    input {
+      font-size: 12px;
+      height:  30px auto auto auto;
+      max-width: 100px;
+      width: auto;
+    }
+  
+    button {
+      width: 93px;
+      font-size: 15px;
+    }
+  
+    .arrow-img {
+      width: 25px;
+      margin: 10px 0;
+     }
+     
+     .currency-de {
+       font-size: 15px;
+     }
+     
+     #currency-select {
+       font-size: 15px;
+     } 
+     
+     #input-real {
+       font-size: 12px;
+     }
+     
+     .currency-value {
+       font-size: 13px;
+     }
+  }
+}
